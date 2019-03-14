@@ -1,0 +1,16 @@
+table, td, tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin: 2%;
+}
+caption {
+    font-size: 25px;
+    color: cadetblue;
+    margin-bottom: 2px;
+}
+
+.btn {
+    margin-top: 10px;
+}
