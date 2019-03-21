@@ -1,5 +1,4 @@
 //@author dsaavedra
-'use strict';
 
 apimock=(function(){
 
@@ -21,6 +20,3 @@ apimock=(function(){
 	}	
 
 })();
-
-module.exports.apimock = apimock;
-export default apimock;

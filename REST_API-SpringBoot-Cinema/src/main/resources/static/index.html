@@ -19,25 +19,24 @@
                     <div>
                         <div class="input-group">
                             <span class="input-group-addon" id="basic-addon1">@</span>
-                            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                            <input type="text" id="input" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
                         </div>
-                        <button type="button" class="btn btn-default">Press</button>
+                        <button type="button" id="button" class="btn btn-default">Press</button>
                     </div>
-                    <table>
+                    
+                    <table class="table">
                         <caption>Table</caption>
-                        <tr>
-                          <td>Cinema</td>
-                          <td>Funcion</td>
-                          <td>Sillas</td>
-                          <td>Fecha</td>
-                        </tr>
-                        <tr>
-                          <td>CinemaX</td>
-                          <td>FuncionX</td>
-                          <td>36</td>
-                          <td>14/03/2019</td>
-                        </tr>                    
-                    </table>
+                        <thead>
+                            <tr>
+                                <td>Cinema</td>
+                                <td>Funcion</td>
+                                <td>Sillas</td>
+                                <td>Fecha</td>
+                            </tr>
+                        </thead>
+                        <tbody id="data">                                                
+                        </tbody>
+                    </table>                    
                 </div>
                 <div class="col-sm-4 col-md-4"></div>
             </div>            
